@@ -5,21 +5,6 @@ android {
     compileSdkVersion 23
     buildToolsVersion "22.0.1"
 
-    signingConfigs {
-        config {
-            keyAlias 'desarrollo.movil@inssoftmx.com'
-            keyPassword 'Inss0ft_123'
-            storeFile file('/Applications/InssoftKS.jks')
-            storePassword 'Inss0ft_123'
-        }
-
-        debug {
-            keyAlias 'desarrollo.movil@inssoftmx.com'
-            keyPassword 'Inss0ft_123'
-            storePassword 'Inss0ft_123'
-        }
-    }
-
     defaultConfig {
         applicationId "mx.jovannypcg.loggingusage"
         minSdkVersion 15
